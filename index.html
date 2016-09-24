@@ -4,10 +4,62 @@
 	<meta charset="utf-8">
 	<title>PROFESIONES</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--<style>
+        .droptarget {
+            float: left;
+            width: 100px;
+            height: 35px;
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+    </style>-->
 </head>
 <body>
-	<h1>Profesiones</h1>
-
+	<header>
+		<img src="imgs/logo.png" alt="logoProfesiones" class="logo">
+			<nav>
+				<a href="#">PROFESIONES</a>
+				<a href="#">JUGAR</a>
+				<a href="#">CONTACTO</a>
+			</nav>
+	</header>
+	<section>
+			<img src="imgs/nina.png" id="nina" class="nina">
+		  <img id="nino" class="nino" src="imgs/varon.png">
+		
+		
+		<div id="contenedorJuego">
+            <div id="contennina">
+                <img src="imgs/nina.png" id="ninaJuego" class="ninaDos droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+			<img id="fondoDoctor" class="fondoDoctor bgAmb" src="imgs/doctor.jpg">
+			<img id="fondoPintor" class="fondoPintor bgAmb" src="imgs/pintor.jpg">
+			<img id="fondoCantante" class="fondoCantante bgAmb" src="imgs/escenario.jpg">
+			<img id="fondoChef" class="fondoChef bgAmb" src="imgs/cocina.jpg">
+			<img id="fondoAstronauta" class="fondoAstronauta bgAmb" src="imgs/space.jpg">
+            <div class="droptarget contenedorRopa" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<img src="imgs/doctor.png" id="doctorRopa" class="doctorRopa bgAmb" ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">
+                <p id="demo"></p>
+				<img src="imgs/astronauta.png" id="astronautaRopa" class="astronautaRopa bgAmb">
+				<img src="imgs/chef.png" id="chefRopa" class="chefRopa bgAmb">
+				<img src="imgs/pintor.png" id="pintorRopa" class="pintorRopa bgAmb">
+			  <img src="imgs/gorro.png" id="gorroRopa" class="gorroRopa bgAmb">
+			  <img src="imgs/vestido-camtantes.png" id="cantanteRopa" class="cantanteRopa bgAmb">
+            </div>
+		</div>
+        <!--
+        <p>Drag the p element back and forth between the two rectangles:</p>
+        <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p ondragstart="dragStart(event)" ondrag="dragging(event)" draggable="true" id="dragtarget">Drag me!</p>
+        </div>
+        
+        <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <p style="clear:both;"><strong>Note:</strong>hahabhbshdh bdehbd hbdehbd hdbehd mskwmsiws djiejdiejdije jideidjiejdi beddv wgydwyvddd.</p>
+        <p id="demo"></p>-->
+	</section>
+	
+	
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
-</html>
+</html>  

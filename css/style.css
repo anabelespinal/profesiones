@@ -1,0 +1,167 @@
+/*menu*/ 
+
+header {
+	background-color: aliceblue;
+}
+.logo {
+	width: 5%;
+}
+nav {
+	width: 30%;
+	position: relative;
+	display: inline-block;
+	left: 60%;
+}
+nav a {
+	font-size: 120%;
+	text-decoration: none;
+	margin-left: 5%;
+	color: black;
+	font-weight: bold;
+}
+
+/*nina*/
+
+.nina {
+	position: relative;
+	left: 20%;
+	width: 15em;
+	height: 15em;
+}
+
+/*nino*/
+
+.nino {
+	position: relative;
+	left: 30%;
+	width: 15em;
+	height: 15em;
+}
+/*#contenedorJueg*/
+
+#contenedorJuego {
+	height: 30em;
+	padding: 3%;
+	border: 2px solid black;
+}
+#contennina {
+    margin-right: 25%;
+    display: inline-block
+}
+
+/*ninaDos*/
+.ninaDos {
+	position: absolute;
+    bottom: 0.5em;
+	width: 15em;
+	height: 15em;
+}
+
+/*bgAmb*/
+
+.bgAmb {
+	display: inline-block;
+	position: relative;
+	
+}
+/*fondoDoctor*/
+.fondoDoctor {
+	bottom: 6em;
+	width: 4em;
+	height: 4em;
+}
+.droptarget {
+    display: inline-block;
+}
+/*fondoPintor*/
+
+.fondoPintor {
+	bottom: 2em;
+	right: 4.3em;
+	width: 4em;
+	height: 4em;	
+}
+
+/*fondoCantante*/
+
+.fondoCantante {
+	top: 2em;
+	right: 8.5em;
+	width: 4em;
+	height: 4em;
+}
+
+/*fondoChef*/
+.fondoChef {
+	top: 6em;
+	right: 12.7em;
+	width: 4em;
+	height: 4em;
+}
+
+/*fondoAstronauta*/
+
+.fondoAstronauta {
+	top: 10em;
+	right: 17em;
+	width: 4em;
+	height: 4em
+}
+
+/*contenedorRopas*/
+
+.contenedorRopas {
+   left: 20em;
+    position: relative;
+	display: inline-block;
+}
+
+/*doctorRopa*/
+
+.doctorRopa {
+    bottom: 10em;
+	left: 29em;
+	width: 10em;
+	height: 9em;
+}
+
+/*astronautaRopa*/
+
+.astronautaRopa {
+	left: 30em;
+    bottom: 10em;
+	width: 15em;
+	height: 15em;
+}
+
+/*chefRopa*/
+
+.chefRopa {
+    left: 35em;
+    bottom: 10em;
+	width: 10em;
+	height: 9em;
+}
+/*class="pintorRopa*/
+
+.pintorRopa {
+	right: 7em;
+	width: 10em;
+	height: 9em;
+}
+
+/*gorroRopa*/
+
+.gorroRopa {
+	top: 2em;
+    right: 3em;
+	width: 10em;
+	height: 10em;
+}
+
+/*cantanteRopa*/
+.cantanteRopa {
+	top: 1em;
+	width: 8em;
+	height: 8em;
+}
